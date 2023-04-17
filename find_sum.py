@@ -1,5 +1,5 @@
 from itertools import chain, combinations
-from typing import List, Tuple, Union
+from typing import List, Union
 
 
 def powerset(iterable: List[Union[int, str]]) -> chain:
@@ -32,5 +32,5 @@ def find_sum(n: int, m: int) -> str:
 
 
 if __name__ == "__main__":
-    print(find_sum(5, 15))  # 1+2+3+4+5=15
-    print(find_sum(4, 46))  # 12+34=46
+    print(find_sum(5, 15))
+    print(find_sum(4, 46))
